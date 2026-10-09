@@ -233,3 +233,38 @@ footer {
         max-width: 100%;
     }
 }
+body.claro {
+    background: #f2f2f2;
+    color: #222;
+}
+
+body.claro .resultado {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+body.claro #estado {
+    color: #333;
+}
+.pronostico {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.dia-pronostico {
+    padding: 15px;
+    text-align: center;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.dia-pronostico img {
+    width: 70px;
+    height: 70px;
+}
+
+.dia-pronostico h3 {
+    text-transform: capitalize;
+    font-size: 1rem;
+}
